@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  width: 100%;
+  background-color: #50606F;
+  padding: 20px 50px;
+  color: white;
+}
+body {
+  background-color: #a65252;
+  border-radius: 10px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+}
+.left img {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.center {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(217, 217, 217);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.right a {
+  color: white;
+  font-size: 10px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: blue;
+}
+div {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 300;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .w-50  {
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+main .w-50 img {
+  object-fit: contain;
+  height: 100%;
+  border-radius: 23px;
+  box-shadow: 3px 3px 10px 3px #5d5757, -2px -2px 10px 2px #a4a1a1;
+}
+main .w-50 img:hover{
+  box-shadow: 0px 0px 10px 5px #5e3897, -1px -1px 10px 6px #deadef;
+}
+.image-text {
+  position: absolute;
+  backdrop-filter: invert(0.1);
+  filter: drop-shadow(0px 0px 0px black);
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  margin: 0;
+  border-radius: 10px !important;
+}
+.image-text img {
+  width: 50px;
+  height: 50px;
+}
+.image-text div {
+  margin: 0;
+}
+.name-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.name-container  input {
+  width: 200px;
+  height: 35px;
+  background-color: #191C1E;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+}
+.block input {
+  width: 450px;
+  height: 35px;
+  background-color: #191C1E;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+}
+textarea {
+  width: 450px;
+  height: 100px;
+  background-color: #191C1E;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  color: #6e767b;
+}
+.name-container label , .block  label {
+  padding-bottom: 10px;
+}
+.name-container div , .block  {
+margin-block: 15px;
+}
+form a {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding:10px 50px;
+  width: 68%;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  margin-block: 10px;
+}
